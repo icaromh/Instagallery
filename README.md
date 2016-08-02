@@ -1,6 +1,4 @@
-# Instagallery
-
-## O que isso faz
+## O que isso faz ?
 
 1. Procura por uma tag específica
 2. Mapeia o feed dessa tag
@@ -11,4 +9,16 @@
 7. Ajusta a legenda informando que é um repost
 8. Printa na tela o retorno do Instagram
 
+## Como usar
 
+```javascript
+git clone git@github.com:icaromh/Instagallery.git
+cd Instagallery
+npm install
+mv auth.default.js auth.js
+```
+Alterar os dados de usuário em `auth.js`
+
+```javascript
+node app.js
+```
